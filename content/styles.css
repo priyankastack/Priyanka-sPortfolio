@@ -1,0 +1,575 @@
+* {
+  margin: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: black;
+  font-family: Poppins;
+}
+/*--Navbar css starts--*/
+#navbar {
+  background-color: black;
+  height: 12vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+}
+#namelogo {
+  margin-left: 7vw;
+}
+.nav-links {
+  margin-right: 7vw;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 1vw;
+  position: relative;
+}
+.nav-links a::after {
+  content: "";
+  width: 0;
+  height: 0.3vh;
+  margin-left: 1vw;
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  background-color: #d62828;
+  transition: width 0.3s ease;
+}
+.nav-links a:hover::after {
+  content: "";
+  width: 75%;
+  margin-left: 1vw;
+  height: 0.3vh;
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  background-color: #d62828;
+  transition: width 0.3s ease;
+}
+.nav-links a.active-link::after {
+  width: 72%;
+  margin-left: 1vw;
+}
+#menu-icon {
+  display: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+#cross-icon {
+  display: none;
+  color: white;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+/*--Navbar css ends--*/
+
+/*--first section css starts--*/
+#firstsection {
+  background-image: url("images/30.png");
+  background-attachment: fixed;
+  background-position-x: calc(100% - 8vw);
+  background-position-y: center;
+  background-repeat: no-repeat;
+  height:100vh;
+  border-bottom: 1px solid grey;
+
+
+}
+#firstsection-leftdiv {
+  color:white;
+  width:45vw;
+  height:65vh;
+  display: flex;
+  flex-direction: column;
+  margin-left: 7vw;
+  margin-top: 13vh;
+  position:relative;
+  top: 10vh;
+}
+#firstsection-leftdiv > h1 {
+  font-size: 6vh;
+  font-weight: 400;
+}
+.profession{
+  font-size:6vh;
+}
+/* Blinking cursor effect */
+.profession::after {
+  color: #d62828;
+  content: "|";
+  animation: blink 0.8s infinite;
+}
+
+/* Blinking cursor animation */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+#firstsection-icons-container {
+  height: 11vh;
+  width: 20vw;
+  margin-top: 2vh;
+}
+
+.social-iconlink > i {
+  font-size: 5vh;
+  margin: 0.6vw;
+  color: white;
+  border-radius: 50%;
+  transition: transform 0.5s;
+}
+.social-iconlink > i:hover {
+  color: #d62828;
+  transform: translateY(-5px);
+}
+#cv-button {
+  width: 12vw;
+  height: 8vh;
+  border-style: none;
+  border: 1px solid black;
+  border-radius: 25px;
+  margin-top: 2vh;
+  cursor: pointer;
+}
+#cv-button:hover {
+  background-color: #d62828;
+  color: white;
+  transition: 1s;
+}
+#cv-btn-link {
+  text-decoration: none;
+  color: black;
+}
+/*--first section css ends--*/
+
+/*--about section css starts--*/
+#about-me {
+  text-align: center;
+  margin-top: 5vh;
+  color: white;
+  font-weight: 400;
+}
+#about-me::first-letter {
+  color: #d62828;
+}
+#about-section {
+  background-image: url("images/31.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: center;
+  background-position-x: calc(8%);
+  height:100vh;
+  border-bottom: 1px solid grey;
+  margin-top: 2vh;
+}
+ 
+#aboutsection-rightdiv {
+  color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  height: 85vh;
+  width: 45vw;
+ float:right;
+ right: 60vw;
+ margin-right: 7vw;
+}
+#aboutsection-rightdiv>p {
+  margin-top: 7vh;
+}
+#tab-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2vh;
+  font-weight: bold;
+}
+.tab-link {
+  position: relative;
+  cursor: pointer;
+}
+.tab-link::after {
+  content: "";
+  width: 0;
+  height: 0.5vh;
+  left: 0;
+  bottom: -3px;
+  position: absolute;
+  background-color: #d62828;
+  transition: 1s;
+}
+.tab-link.active-link::after {
+  width: 1.5vw;
+  margin-left: 0.8vw;
+}
+.tab-content {
+  display: none;
+}
+.tab-content.active-tab {
+  display: block;
+}
+#edu,
+#lang {
+  padding-left: 0.5vw;
+}
+li {
+  list-style: none;
+  position: relative;
+  right: 3vw;
+  margin-top: 1vh;
+}
+ul li span {
+  color: #d62828;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 0;
+}
+/*--about section css ends--*/
+
+/*--Services section css start--*/
+
+#my-service {
+  text-align: center;
+  margin-top: 5vh;
+  color: white;
+  font-weight: 400;
+}
+#my-service::first-letter {
+  color: #d62828;
+}
+#service-section {
+  height: 80vh;
+  border-bottom: 1px solid grey;
+}
+#service-container {
+  height: 75vh;
+  margin: 5vh 7vw 0vh 7vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.services {
+  height: 55vh;
+  width: 45vh;
+  font-size: 14px;
+  background-color: #353535;
+  color: white;
+  border-radius: 10px;
+  transition: transform 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+.services:hover {
+  background-color: #d62828;
+  transform: translateY(-7px);
+}
+.services>i {
+  font-size: 8vh;
+}
+/*--Services section css ends--*/
+
+
+/*--project section css start--*/
+#my-project {
+  text-align: center;
+  margin-top: 5vh;
+  color: white;
+  font-weight: 400;
+}
+#my-project::first-letter {
+  color: #d62828;
+}
+#project-section {
+  height:87vh;
+  color: white;
+  border-bottom: 1px solid grey;
+}
+#project-outer-container{
+  display: flex;
+  flex-direction:column;
+}
+#project-container{
+  height: 72vh;
+  margin: 2vh 7vw 0vh 7vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#project-container2{   
+  display:none;
+}
+.project {
+  background-color: #353535;
+  height:50vh;
+  width: 50vh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+  overflow: hidden;
+}
+.project-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+.project-img:hover {
+  transform: scale(1.1);
+}
+.project-layer {
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0), #d62828);
+  text-align: center;
+  height: 0;
+  width: 100%;
+  margin-top:2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: height 0.5s;
+}
+.project:hover .project-layer {
+  height: 100%;
+}
+.project-title {
+  margin-top:10vh;
+}
+.project-description {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin-top:2vh;
+  font-size: 12px;
+}
+.project-link {
+  text-decoration: none;
+  color: #d62828;
+  background-color: white;
+  height: 5vh;
+  width: 5vh;
+  margin-top:2vh;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#see-more-btn {
+  width: 11vw;
+  height: 8vh;
+  margin-top: 2vh;
+  border-style: none;
+  border: 1px solid #d62828;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+  left: 44vw;
+}
+#see-more-btn:hover {
+  background-color: #d62828;
+}
+/*--THE FOLLOWING CSS OF PROJECT SECTION WILL APPLIED ON PROJECT-SECTION WHEN  CLICKED SEEMORE BUTTON---*/
+
+#project-section.height{
+  height:170vh;
+  
+}
+
+#project-container2.showmore{
+  height: 72vh;
+  margin: 2vh 7vw 0vh 7vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/*--project section css ends--*/
+
+/*--Contact section css start--*/
+#contact-me {
+  text-align: center;
+  margin-top: 5vh;
+  color: white;
+  font-weight: 400;
+}
+#contact-me::first-letter {
+  color: #d62828;
+}
+#contact-section {
+  height: 85vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2vh;
+}
+#contact-heading::first-letter {
+  color: #d62828;
+}
+#contact-section-form {
+  height: 85vh;
+  width: 45vw;
+  margin-right: 7vw;
+  margin-top: 10vh;
+}
+#contact-section-leftdiv {
+  /*background-color:aqua;*/
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 3v;
+  height: 65vh;
+  width: 35vw;
+  margin-left: 7vw;
+  margin-top: 10vh;
+}
+#let-connect {
+  margin-top: 9vh;
+}
+#contact-para {
+  margin-top: 5vh;
+  font-size: 14px;
+}
+#contact-icons-container {
+  width: 14vw;
+  height: 5vh;
+}
+.email {
+  margin-top: 2vh;
+  color: #6c757d;
+}
+.email > i {
+  color: #d62828;
+}
+#contact-icons-container > i {
+  font-size: 4vh;
+  margin-right: 2vw;
+  margin-top: 3.5vh;
+  color: #6c757d;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+#contact-icons-container > i:hover {
+  color: #d62828;
+  transform: translateY(-5px);
+}
+#form {
+  color: #6c757d;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-top: 6vh;
+}
+#form input {
+  padding: 2.5vh 0 2.5vh 1vh;
+  margin-top: 4vh;
+  border-radius: 3px;
+  background-color: #353535;
+  color: white;
+  font-size: 14px;
+  border: none;
+  outline: none;
+}
+#form textarea {
+  background-color: #353535;
+  color: white;
+  border-radius: 3px;
+  margin-top: 4vh;
+  padding-left: 1vh;
+  font-size: 14px;
+  border: none;
+  outline: none;
+}
+#submit-btn {
+  width: 11vw;
+  height: 8vh;
+  margin-top: 4vh;
+  border-style: none;
+  border: 1px solid #d62828;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+}
+#submit-btn:hover {
+  background-color: #d62828;
+}
+/*--Contact section css ends--*/
+/*--footer section css start--*/
+footer {
+  background-color: #353535;
+  color: #6c757d;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+footer i {
+  color: red;
+}
+/*--footer section css ends--*/
+
+/*--CSS FOR RESOPNSIVE START--*/
+/* Media query for navigation when screens 700px or less */
+@media (max-width: 700px) {
+  /* You may also want to hide the regular menu */
+  .nav-links {
+    display: none; /* Hide the full menu when screen width is 700px or less */
+    flex-direction: column; /* Stack the menu items vertically */
+    align-items: center;
+    position: absolute;
+    top:1vh;
+    left: 0vw;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+  }
+  .nav-links.show {
+    display: flex;
+  }
+  /* Show the menu icon when screen width is 700px or less ends */
+  .nav-links a.active-link::after {
+    width: 75%;
+    margin-left: 1vw;
+  }
+  .nav-links a:hover::after {
+    content: "";
+    width: 77%;
+  }
+  #menu-icon{
+    display: block;
+    margin-right: 5vw;  
+  }
+  #cross-icon{
+    display:block;
+  }
+
+}
+/* Media query for navigation when screens 700px or less ends */
+/*--CSS FOR RESOPNSIVE START--*/

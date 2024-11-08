@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "Y376b_q7WfB7LBLmz",
+      });
+   })();
+</script>
+<link rel="stylesheet" href="styles.css" />                        
+  </head>
+  <body>
+    <section id="home">
+    <!--navbar start-->
+   <nav id="navbar">
+      <div id="namelogo"><img src="images/name-logo.png" /></div>
+      <div class="nav-links">
+        <i class="fa-solid fa-xmark" id="cross-icon" onclick="cross()"></i>
+        <a href="#home" class="home active-link">Home</a>
+        <a href="#about-me">About</a>
+        <a href="#my-project">Projects</a>
+        <a href="#my-service">Services</a>
+        <a href="#contact-me">Contact</a>
+      </div>
+      <i class="fa-solid fa-bars"onclick="toggleMenu()" id="menu-icon"></i>
+    </nav>
+    <!--navbar ends-->
+
+    <!--first-section start-->
+    <section id="firstsection">
+      <div id="firstsection-leftdiv">
+        <h1>Hello It's Priyanka</h1>
+        <span class="profession" id="profession"></span>
+        <br />
+        <p>
+          Welcome to my coding journey! 🚀 I’m excited to share my passion for
+          tech and showcase my projects. Explore and join me on this adventure
+          as I learn, create, and innovate in the world of technology! Together,
+          let’s inspire and build a future powered by creativity and code.
+        </p>
+        <div id="firstsection-icons-container">
+          <a
+            href="https://www.linkedin.com/in/priyankasingh81/"
+            class="social-iconlink"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="https://github.com/PRIYANKA22BSC"class="social-iconlink"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.behance.net/priyankakumari146"
+            class="social-iconlink"
+            ><i class="fa-brands fa-behance"></i
+          ></a>
+        </div>
+        <button id="cv-button">
+        <a href="#" id="cv-btn-link">Download CV <i class="fa-solid fa-download"></i></a>
+        </button>
+      </div>
+    </section>
+  </section>
+
+    <!--first-section ends-->
+
+    <!--about Section Start-->
+
+    <h1 id="about-me">About Me</h1>
+    <section id="about-section">
+      <div id="aboutsection-rightdiv">
+        <p>
+          I'm Priyanka Singh, a passionate web developer with expertise in
+          frontend and backend technologies like React.js, Node.js, and MongoDB.
+          "As a freelancer, I design intuitive user interfaces and seamless
+          experiences, creating innovative, user-centered applications that
+          address real-world needs. With WordPress expertise, I continuously
+          seek to expand my tech skills."
+        </p>
+        <div id="tab-container">
+          <div class="tab-link active-link" onclick="opentab('skills',event)">
+            Skills
+          </div>
+          <div class="tab-link" id="edu" onclick="opentab('education',event)">
+            Education
+          </div>
+          <div class="tab-link" id="lang" onclick="opentab('languages',event)">
+            Languages
+          </div>
+        </div>
+        <br />
+        <ul class="tab-content active-tab" id="skills">
+          <li>
+            <span class="skills-list">UI/UX</span><br />"Proficient in crafting
+            intuitive, user-centered designs for seamless digital experiences."
+          </li>
+          <li>
+            <span class="skills-list">Web Developmet</span><br />"Experienced in
+            building responsive, user-friendly websites with HTML, CSS, and
+            JavaScript."
+          </li>
+          <li>
+            <span class="skills-list">Wordpress Development</span
+            ><br />"Experienced in building and customizing WordPress sites for
+            optimized functionality and design."
+          </li>
+        </ul>
+        <ul class="tab-content" id="education">
+          <li>
+            <span class="skills-list">2022-2025</span><br />Pursuing B.sc(CS) at
+            Chandigarh University
+          </li>
+          <li>
+            <span class="skills-list">2019-2021</span><br />Completed Higher
+            Secondary from Govt +2 High School, Birpur, with a stream in PCM.
+          </li>
+          <li>
+            <span class="skills-list">2018-2019</span><br />Completed
+            Matriculation from Govt High School, Birpur.
+          </li>
+        </ul>
+        <ul class="tab-content" id="languages">
+          <li><span class="skills-list">Frontend</span><br />Html,CSS,Js</li>
+          <li>
+            <span class="skills-list">Backend</span><br />Node.js,Express,Php
+          </li>
+          <li>
+            <span class="skills-list">Database</span><br />My sql,Mongo db
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!--about Section ends-->
+
+    <!--Services section start-->
+    <h1 id="my-service">My Services</h1>
+    <section id="service-section">
+      <div id="service-container">
+        <div class="services">
+          <i class="fa-solid fa-code" class="service-icon"></i>
+          <h2>Web Design</h2>
+          <p>
+            I create responsive, user-centered websites using HTML, CSS,
+            JavaScript, React.js, Node.js, and MongoDB. My services cover
+            frontend and backend development to deliver seamless, scalable web
+            solutions that engage users and drive results.
+          </p>
+        </div>
+        <div class="services">
+          <i class="fa-brands fa-figma" class="service-icon"></i>
+          <h2>UI/UX Design</h2>
+          <p>
+            I craft user-centered designs that blend aesthetics and
+            functionality. From wireframes to high-fidelity prototypes, I create
+            responsive and accessible interfaces. Let’s bring your vision to
+            life with impactful digital experiences..
+          </p>
+        </div>
+        <div class="services">
+          <i class="fa-brands fa-wordpress"></i>
+          <h2>Wordpress</h2>
+          <p>
+            I create user-friendly WordPress websites tailored to your needs,
+            ensuring optimal performance and responsive design. Whether for a
+            blog, business, or e-commerce, I enhance your online presence with
+            engaging solutions.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--Services section ends-->
+
+    
+    <!--Project section starts-->
+    <h1 id="my-project">My Projects</h1>
+    <section id="project-section">
+      <div id="project-outer-container">
+      <div id="project-container">
+        <div class="project">
+          <img src="images/waetherrr.png" class="project-img" />
+          <div class="project-layer">
+            <h4 class="project-title">Sky Tracker</h4>
+            <p class="project-description">Built a weather app providing real- me weather informa on with forecasts up to 1 week ahead.</p>
+            <a href="https://github.com/PRIYANKA22BSC/weather" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="images/food.jpg" class="project-img" />
+          <div class="project-layer">
+            <h4 class="project-title">Nutri Go</h4>
+            <p class="project-description">Designed Nutri Go, a UI/UX project integrating nutriton tracking and meal planning features into a restaurant
+              app</p>
+            <a href="https://www.behance.net/gallery/200998573/Nutri-go"class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="images/photographer.jpg" class="project-img" />
+          <div class="project-layer">
+            <h4 class="project-title">Snapfolio</h4>
+            <p class="project-description">Developed a customizable WordPress portfolio for photographers, featuring responsive galleries, client testimonials, and contact forms for easy client interaction.</p>
+            <a href="https://word.kesug.com/?i=1"class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div id="project-container2">
+        <div class="project">
+          <img src="images/launch.jpg.crdownload" class="project-img" />
+          <div class="project-layer">
+            <h4 class="project-title">Coming Soon</h4>
+            <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nam neque quod adipisci nostrum repudiandae, eos!</p>
+            <a href="https://github.com/PRIYANKA22BSC/weather" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="images/launch.jpg.crdownload" class="project-img" />
+          <div class="project-layer">
+            <h4 class="project-title">Coming Soon</h4>
+            <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nam neque quod adipisci nostrum repudiandae, eos!</p>
+
+            <a href="#"class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="images/launch.jpg.crdownload" class="project-img" />
+          <div class="project-layer">
+            <h4 class="project-title">Coming soon</h4>
+            <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nam neque quod adipisci nostrum repudiandae, eos!</p>
+            <a href="#"class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+      <button id="see-more-btn" onclick="project()">See More <i class="fa-solid fa-angles-down" id="see-more-icon"></i></button>
+    </section>
+    <!--Project section ends-->
+   <!--contact section start-->
+   <h1 id="contact-me">Contact Me</h1>
+   <section id="contact-section">
+     <div id="contact-section-leftdiv">
+      <h1 id="let-connect">Let's Connect!</h1>
+      <p id="contact-para">"Feel free to reach out! Whether you have a project in mind, need assistance, or just want to connect, I’m here to help. Let’s turn ideas into impactful solutions together!"</p>
+     <span class="email"> <i class="fa-brands fa-telegram" class="email-icon"></i> ps9446133@gmail.com</span>
+     <span class="email"> <i class="fa-brands fa-telegram" class="email-icon"></i> ps9446133@gmail.com</span>
+      <div id="contact-icons-container">
+        <i class="fa-brands fa-linkedin" class="contact-icons"></i>
+        <i class="fa-brands fa-square-github"class="contact-icons"></i>
+        <i class="fa-brands fa-square-behance"class="contact-icons"></i>
+      </div>
+     </div>
+     <div id="contact-section-form">
+      <form id="form">
+        <input type="text" placeholder="Your Name" class="input" id="name" required>
+        <input type="email" placeholder="Your Email" class="input" id="email"  required>
+       <textarea placeholder="Your Message" id="message"></textarea>
+        <button id="submit-btn" onclick="sendMail()">Submit</button>
+      </form>
+    </div>
+   </section>
+     <!--contact section ends-->
+     <footer id="footer">
+      <p>Copyright&copy 2024.Made with <i class="fa-solid fa-heart" ></i>
+        by Priyanka Singh</p>
+     </footer>
+  </body>
+  <script src="index.js"></script>
+</html>
