@@ -1,5 +1,5 @@
 # 🌐 Priyanka Singh's Portfolio
-Link-priyanka-s-portfolio-six.vercel.app
+Link-https://priyanka-s-portfolio-six.vercel.app/
 
 Welcome to my personal portfolio website! This project showcases my skills, experience, and passion for web development and design. ✨
 
