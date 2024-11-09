@@ -668,5 +668,153 @@ gap: 2vw;
 }
 /*--Contact section responsive-css ends--*/
 }
+@media (max-width: 600px) {
+  /*-- Navbar section starts --*/
+  .nav-links {
+    display: none;
+    flex-direction: column; 
+    align-items: center;
+    position: absolute;
+    top: 1vh;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-links a.active-link::after {
+    width: 75%;
+    margin-left: 1vw;
+  }
+
+  .nav-links a:hover::after {
+    content: "";
+    width: 77%;
+  }
+
+  #menu-icon, #cross-icon {
+    display: block;
+    margin-right: 5vw;  
+  }
+  /*-- Navbar section ends --*/
+
+  /*-- First section starts --*/
+  #firstsection {
+    background-image: url("images/copy.png");
+    background-position: right;
+    height: 80vh;
+  }
+  
+  #firstsection-leftdiv {
+    width: 50vw;
+    height: 55vh;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3vw;
+    margin-top: 12vh;
+    position: relative;
+    top: 10vh;
+  }
+  
+  #firstsection-leftdiv > h1 {
+    font-size: 3.5vh;
+    font-weight: 400;
+  }
+  
+  .profession {
+    font-size: 4.5vh;
+  }
+
+  #firstsection-icons-container {
+    height: 6vh;
+    width: 16vw;
+    margin-top: 2vh;
+  }
+
+  .social-iconlink > i {
+    font-size: 3.5vh;
+  }
+
+  #cv-button {
+    width: 20vw;
+  }
+  /*-- First section ends --*/
+
+  /*-- About section starts --*/
+  #about-section {
+    background-image: url("images/Picture1.png");
+  }
+
+  #aboutsection-rightdiv {
+    width: 43vw;
+    font-size: 12px;
+  }
+  /*-- About section ends --*/
+
+  /*-- Services section starts --*/
+  #service-container {
+    gap: 2vw;
+  }
+
+  .services {
+    height: 45vh;
+    width: 50vw;
+    font-size: 12px;
+    line-height: 1.2;
+  }
+
+  .services > i {
+    font-size: 4vh;
+  }
+
+  .services > h2 {
+    font-size: 2vh;
+  }
+  /*-- Services section ends --*/
+
+  /*-- Projects section starts --*/
+  #project-container {
+    gap: 2vw;
+  }
+
+  .project {
+    height: 45vh;
+    width: 40vh;
+  }
+
+  #see-more-btn {
+    width: 20vw;
+  }
+
+  #project-container2.showmore {
+    height: 72vh;
+    gap: 2vw;
+  }
+  /*-- Projects section ends --*/
+
+  /*-- Contact section starts --*/
+  #contact-para {
+    font-size: 12px;
+  }
+
+  #contact-icons-container {
+    width: 20vw;
+  }
+
+  .email {
+    font-size: 11px;
+  }
+
+  #submit-btn {
+    width: 20vw;
+  }
+  /*-- Contact section ends --*/
+}
+
 
 
