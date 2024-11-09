@@ -536,12 +536,11 @@ footer i {
 /*--footer section css ends--*/
 
 /*--CSS FOR RESOPNSIVE START--*/
-/* Media query for navigation when screens 700px or less */
-@media (max-width: 700px) {
-  /* You may also want to hide the regular menu */
+/*--nav section css starts--*/
+@media (max-width:700px) {
   .nav-links {
-    display: none; /* Hide the full menu when screen width is 700px or less */
-    flex-direction: column; /* Stack the menu items vertically */
+    display: none;
+    flex-direction: column; 
     align-items: center;
     position: absolute;
     top:1vh;
@@ -553,7 +552,7 @@ footer i {
   .nav-links.show {
     display: flex;
   }
-  /* Show the menu icon when screen width is 700px or less ends */
+
   .nav-links a.active-link::after {
     width: 75%;
     margin-left: 1vw;
@@ -569,7 +568,105 @@ footer i {
   #cross-icon{
     display:block;
   }
+  /*--navbar section css endss--*/
+  /*--first section css starts--*/
+  #firstsection {
+    background-image: url("images/copy.png");
+    background-position-x: calc(100%);
+    height:80vh;
+  }
+  #firstsection-leftdiv {
+  
+    width:50vw;
+    height:55vh;
+    font-size:14px;
+    display: flex;
+    flex-direction: column;
+    margin-left:3vw;
+    margin-top:12vh;
+    position:relative;
+    top:10vh;
+  }
+  #firstsection-leftdiv > h1 {
+    font-size:3.5vh;
+    font-weight:400;
+  }
+  .profession{
+    font-size:4.5vh;
+  }
 
+#firstsection-icons-container {
+  height:6vh;
+  width:16vw;
+  margin-top:2vh;
 }
-/* Media query for navigation when screens 700px or less ends */
-/*--CSS FOR RESOPNSIVE START--*/
+
+.social-iconlink > i {
+  font-size:3.5vh;
+}
+#cv-button {
+  width:20vw;
+}
+/*--first section css ends--*/
+/*--aboutt section css starts--*/
+#about-section {
+  background-image: url("images/Picture1.png");
+}
+ 
+#aboutsection-rightdiv {
+  width: 43vw;
+ font-size:12px;
+ 
+}
+/*--aboutt section css ends--*/
+/*--service section css starts--*/
+#service-container {
+  gap:2vw;
+}
+.services {
+  
+  height:45vh;
+  width: 50vw;
+  font-size: 12px;
+  line-height:120%;
+}
+.services>i {
+  font-size:4vh;
+}
+.services>h2 {
+  font-size:2vh;
+}
+/*--services section css ends--*/
+/*--project section css starts--*/
+#project-container{
+gap: 2vw;
+}
+.project {
+  height:45vh;
+  width: 40vh;
+}
+#see-more-btn {
+  width:20vw;
+}
+#project-container2.showmore{
+  height: 72vh;
+  gap: 2vw;
+}
+/*--project section css ends--*/
+/*--Contact section responsive-css start--*/
+#contact-para {
+  font-size: 12px;
+}
+#contact-icons-container {
+  width:20vw;
+}
+.email {
+ font-size: 11px;
+}
+#submit-btn {
+  width:20vw;
+}
+/*--Contact section responsive-css ends--*/
+}
+
+
