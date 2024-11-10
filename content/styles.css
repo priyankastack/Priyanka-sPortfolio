@@ -824,7 +824,7 @@ gap: 2vw;
    #aboutsection-rightdiv{
     display:block;
     height:65vh;
-    width:80vw;
+    width:75vw;
   }
   /*-- About section ends --*/
 
@@ -844,6 +844,7 @@ gap: 2vw;
   }
   .services {
     height:50vh;
+    padding-left:2vw;
     width: 85vw;
     margin-left:2vw;
     font-size: 16px;
@@ -902,7 +903,7 @@ gap: 2vw;
   width:50vw;
   margin-top:1vh;
    position: relative;
-  left:22vw;
+  left:24vw;
 }
 /*--THE FOLLOWING CSS OF PROJECT SECTION WILL APPLIED ON PROJECT-SECTION WHEN  CLICKED SEEMORE BUTTON---*/
 
@@ -926,7 +927,7 @@ gap: 2vw;
 }
 #contact-section-form {
   height: 85vh;
-  width: 45vw;
+  width:70vw;
   margin-top: 10vh;
 }
 #contact-section-leftdiv {
@@ -941,19 +942,22 @@ gap: 2vw;
   font-size: 14px;
 }
 #contact-icons-container {
-  width:20vw;
+  width:40vw;
 }
 #contact-icons-container > i {
   font-size: 3vh;
 }
 #form {
+  height:70vh;
+  width:80vw;
   display: flex;
   flex-direction: column;
   justify-content:center;
   align-items:center
   margin-top: 6vh;
+  margin-left:2vw;
 }
-#form input {
+#form>input {
   padding:2.5vh 5vw 2.5vh 5vw;
   margin-top: 4vh;
   font-size: 14px;
@@ -963,7 +967,7 @@ gap: 2vw;
 }
 #submit-btn {
   width:50vw;
-  margin-left:22vw;
+  margin-left:24vw;
 }
 /*--Contact section css ends--*/
 /*--footer section css start--*/
