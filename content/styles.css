@@ -824,7 +824,7 @@ gap: 2vw;
      background-color:red;
     display:block;
     height:65vh;
-    width:65vw;
+    width:80vw;
      display:flex;
      flex-direction:column;
      justify-content:center;
@@ -962,8 +962,7 @@ gap: 2vw;
   margin-left:3vw;
 }
 #form>input {
-  padding:2vw 8vw 2vw 8vw;
-  width:8vw;
+  width:20vw;
   margin-top: 4vh;
   font-size: 14px;
 }
