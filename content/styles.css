@@ -821,7 +821,7 @@ gap: 2vw;
   padding-left:5vw;
 }
    #aboutsection-rightdiv{
-     backgroun-color:red;
+     background-color:red;
     display:block;
     height:65vh;
     width:65vw;
@@ -962,7 +962,7 @@ gap: 2vw;
   margin-left:3vw;
 }
 #form>input {
-  padding:2.5vh 6vw 2.5vh 6vw;
+  padding:2vw 8vw 2vw 8vw;
   width:8vw;
   margin-top: 4vh;
   font-size: 14px;
