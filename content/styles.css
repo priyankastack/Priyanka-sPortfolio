@@ -799,9 +799,20 @@ gap: 2vw;
     margin-left:4vw;
     margin-top:10vh;
   }
+  /*--tab--*/
   .tab-link.active-link::after {
-  width:3vw;
-  margin-left: 0.8vw;
+  width:6vw;
+  margin-left:5vw;
+}
+  .tab-link::after {
+  content: "";
+  width: 0;
+  height: 0.5vh;
+  left:5vw;
+  bottom: -3px;
+  position: absolute;
+  background-color: #d62828;
+  transition: 1s;
 }
   #edu,
 #lang {
