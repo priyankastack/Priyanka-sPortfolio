@@ -23,7 +23,7 @@ body {
   z-index: 1000;
 }
 #namelogo {
-  margin-left: 7vw;
+  margin-left:4vw;
 }
 .nav-links {
   margin-right: 7vw;
@@ -63,7 +63,7 @@ body {
 #menu-icon {
   display: none;
   color: white;
-  font-size: 1.5rem;
+  font-size: 3.5rem;
   cursor: pointer;
 }
 #cross-icon {
@@ -744,22 +744,22 @@ gap: 2vw;
   }
   
   .profession {
-    font-size: 5.5vh;
+    font-size:5vh;
   }
 
   #firstsection-icons-container {
     height: 6vh;
-    width:40vw;
+    width:45vw;
     margin-top:4vh;
   }
 
   .social-iconlink > i {
     font-size:5vh;
+    margin-right:3vw;
   }
 
   #cv-button {
-    width:45vw;
-    border-radius:50%;
+    width:50vw;
   }
   #firstsection-rightdiv{
     display:block;
