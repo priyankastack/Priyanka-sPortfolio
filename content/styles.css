@@ -644,7 +644,7 @@ footer i {
  
 #aboutsection-rightdiv {
   width: 43vw;
- font-size:12px;
+ font-size:16px;
  
 }
 /*--aboutt section css ends--*/
@@ -660,7 +660,7 @@ footer i {
   line-height:120%;
 }
 .services>i {
-  font-size:4vh;
+  font-size:5vh;
 }
 .services>h2 {
   font-size:2vh;
@@ -836,12 +836,12 @@ gap: 2vw;
   #service-container {
     width:85vw;
     height:190vh;
-    margin-top:10vh;
+    margin-top:8vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    gap: 2vh;
+    gap:3.5vh;
   }
   .services {
     height:50vh;
@@ -851,7 +851,7 @@ gap: 2vw;
   }
 
   .services > i {
-    font-size:5vh;
+    font-size:5.5vh;
   }
 
   .services > h2 {
