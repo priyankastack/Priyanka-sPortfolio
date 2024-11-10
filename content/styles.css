@@ -699,6 +699,9 @@ gap: 2vw;
 }
 @media (max-width: 600px) {
   /*-- Navbar section starts --*/
+  #namelogo {
+  margin-left:1vh;
+}
   .nav-links {
     display: none;
     flex-direction: column; 
@@ -832,7 +835,7 @@ gap: 2vw;
 }
   #service-container {
     width:85vw;
-    height:90vh;
+    height:330vh;
     margin-top:12vh;
     display:flex;
     flex-direction:column;
@@ -840,9 +843,8 @@ gap: 2vw;
     align-items:center;
     gap: 2vh;
   }
-
   .services {
-    height:95vh;
+    height:100vh;
     width: 85vw;
     margin-left:2vw;
     font-size: 14px;
