@@ -63,7 +63,7 @@ body {
 #menu-icon {
   display: none;
   color: white;
-  font-size:2rem;
+  font-size:3vh;
   cursor: pointer;
 }
 #cross-icon {
@@ -751,7 +751,7 @@ gap: 2vw;
 
   #firstsection-icons-container {
     height: 6vh;
-    width:50vw;
+    width:55vw;
     margin-top:4vh;
   }
 
