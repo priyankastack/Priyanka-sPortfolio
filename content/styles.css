@@ -23,7 +23,7 @@ body {
   z-index: 1000;
 }
 #namelogo {
-  margin-left:4vw;
+  margin-left:3vw;
 }
 .nav-links {
   margin-right: 7vw;
@@ -63,7 +63,7 @@ body {
 #menu-icon {
   display: none;
   color: white;
-  font-size: 3.5rem;
+  font-size:2rem;
   cursor: pointer;
 }
 #cross-icon {
@@ -613,9 +613,11 @@ footer i {
 
 .social-iconlink > i {
   font-size:3.5vh;
+  margin:2vw
 }
 #cv-button {
   width:20vw;
+  margin-top:4vh;
 }
   #firstsection-righttdiv {
     display:block;
@@ -749,16 +751,17 @@ gap: 2vw;
 
   #firstsection-icons-container {
     height: 6vh;
-    width:45vw;
+    width:50vw;
     margin-top:4vh;
   }
 
   .social-iconlink > i {
     font-size:5vh;
-    margin-right:3vw;
+    margin-right:5vw;
   }
 
   #cv-button {
+    margin-top:5vh;
     width:50vw;
   }
   #firstsection-rightdiv{
