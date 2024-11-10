@@ -847,11 +847,11 @@ gap: 2vw;
     height:50vh;
     width: 85vw;
     margin-left:2vw;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .services > i {
-    font-size: 4vh;
+    font-size:6vh;
   }
 
   .services > h2 {
