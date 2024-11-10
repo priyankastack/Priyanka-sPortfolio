@@ -916,31 +916,64 @@ gap: 2vw;
   justify-content: space-evenly;
 }
 /*--project section css ends--*/
-  
-  /*-- Contact section starts --*/
-  #contact-section {
-  height:130vh;
+  /*--Contact section css start--*/
+#contact-section {
+  height:135vh;
   display: flex;
   flex-direction:column;
   justify-content: space-between;
   margin-top: 2vh;
 }
-  #contact-para {
-    font-size:16px;
-  }
+#contact-section-form {
+  height: 85vh;
+  width: 45vw;
+  margin-top: 10vh;
+}
+#contact-section-leftdiv {
+  height:70vh;
+  width:80vw;
+}
+#let-connect {
+  margin-top: 9vh;
+}
+#contact-para {
+  margin-top: 5vh;
+  font-size: 14px;
+}
+#contact-icons-container {
+  width: 20vw;
+}
+#contact-icons-container > i {
+  font-size: 3vh;
+}
+#form {
+  color: #6c757d;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center
+  margin-top: 6vh;
+}
+#form input {
+  padding: 2.5vh 0 2.5vh 1vh;
+  margin-top: 4vh;
+  font-size: 14px;
+}
+#form textarea {
+  margin-top: 4vh;
+}
+#submit-btn {
+  width:50vw;
+  height: 8vh;
+}
+/*--Contact section css ends--*/
+/*--footer section css start--*/
+footer {
+  font-size: 12px;
+}
 
-  #contact-icons-container {
-    width: 20vw;
-  }
-
-  .email {
-    font-size: 11px;
-  }
-
-  #submit-btn {
-    width: 50vw;
-  }
-  /*-- Contact section ends --*/
+/*--footer section css ends--*/
+ 
 }
 
 
