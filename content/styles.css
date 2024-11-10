@@ -700,7 +700,7 @@ gap: 2vw;
 @media (max-width: 600px) {
   /*-- Navbar section starts --*/
   #namelogo {
-  margin-left:1vh;
+  margin-left:0.85vh;
 }
   .nav-links {
     display: none;
@@ -831,7 +831,7 @@ gap: 2vw;
 
   /*-- Services section starts --*/
   #service-section {
-  height:190vh;
+  height:210vh;
 }
   #service-container {
     width:85vw;
@@ -844,7 +844,7 @@ gap: 2vw;
     gap: 2vh;
   }
   .services {
-    height:85vh;
+    height:75vh;
     width: 85vw;
     margin-left:2vw;
     font-size: 14px;
