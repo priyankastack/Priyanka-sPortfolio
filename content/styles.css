@@ -858,38 +858,64 @@ gap: 2vw;
   }
   /*-- Services section ends --*/
 
-  /*-- Projects section starts --*/
-  #project-container [
-    gap: 2vw;
-  display:flex;
+
+/*--project section css start--*/
+
+#project-section {
+  height:220vh;
+}
+#project-container{
+  height:200vh;
+  display: flex;
   flex-direction:column;
   justify-content: space-evenly;
-  }
-   #project-container2 {
-    gap: 2vw;
-  display:flex;
+  align-items: center;
+}
+#project-container2{   
+  display:none;
+}
+.project {
+    height:50vh;
+    width: 85vw;
+    margin-left:2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+  overflow: hidden;
+}
+.project-title {
+  margin-top:10vh;
+}
+.project-description {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin-top:2vh;
+  font-size: 12px;
+}
+.project-link {
+  height: 5vh;
+  width: 5vh;
+  margin-top:2vh;
+}
+#see-more-btn {
+  width:50vw;
+  height: 8vh;
+  margin-top: 2vh;
+}
+/*--THE FOLLOWING CSS OF PROJECT SECTION WILL APPLIED ON PROJECT-SECTION WHEN  CLICKED SEEMORE BUTTON---*/
+
+#project-section.height{
+  height:440vh;
+}
+#project-container2.showmore{
+  height:200vh;
+  display: flex;
   flex-direction:column;
   justify-content: space-evenly;
-  }
-
-  .project {
-    height: 45vh;
-    width: 40vh;
-  }
-
-  #see-more-btn {
-    width: 50vw;
-  }
-
-  #project-container2.showmore {
-    height: 72vh;
-    gap: 2vw;
-     display:flex;
-  flex-direction:column;
-  justify-content: space-evenly;
-  }
-  /*-- Projects section ends --*/
-
+}
+/*--project section css ends--*/
+  
   /*-- Contact section starts --*/
   #contact-section {
   height:85vh;
