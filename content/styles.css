@@ -786,8 +786,10 @@ gap: 2vw;
     display:flex;
     flex-direction:column;
     gap:2vh;
+     height:145vh;
   }
    #firstsection-leftdiv {
+     color:white;
     width:85vw;
     height:70vh;
     font-size:16px;
