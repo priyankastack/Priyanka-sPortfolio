@@ -653,14 +653,13 @@ footer i {
   gap:2vw;
 }
 .services {
-  
   height:45vh;
   width: 50vw;
   font-size: 12px;
   line-height:120%;
 }
 .services>i {
-  font-size:5vh;
+  font-size:6vh;
 }
 .services>h2 {
   font-size:2vh;
