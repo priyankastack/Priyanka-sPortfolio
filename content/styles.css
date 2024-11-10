@@ -23,7 +23,7 @@ body {
   z-index: 1000;
 }
 #namelogo {
-  margin-left:2vh;
+  margin-left:1vh;
 }
 .nav-links {
   margin-right: 7vw;
@@ -63,7 +63,7 @@ body {
 #menu-icon {
   display: none;
   color: white;
-  font-size:6vh;
+  font-size:4vh;
   cursor: pointer;
 }
 #cross-icon {
@@ -262,9 +262,6 @@ ul li span {
   color: white;
   font-weight: 400;
 }
-#my-service::first-letter {
-  color: #d62828;
-}
 #service-section {
   height: 80vh;
   border-bottom: 1px solid grey;
@@ -277,6 +274,10 @@ ul li span {
   justify-content: space-evenly;
   align-items: center;
 }
+#my-service::first-letter {
+  color: #d62828;
+}
+
 .services {
   height: 55vh;
   width: 45vh;
@@ -827,12 +828,12 @@ gap: 2vw;
 
   /*-- Services section starts --*/
   #service-section {
-  height:140vh;
+  height:110vh;
 }
   #service-container {
     width:85vw;
     height:90vh;
-    margin-top:8vh;
+    margin-top:12vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -841,7 +842,7 @@ gap: 2vw;
   }
 
   .services {
-    height:85vh;
+    height:95vh;
     width: 85vw;
     margin-left:2vw;
     font-size: 14px;
