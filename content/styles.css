@@ -279,7 +279,7 @@ ul li span {
 }
 
 .services {
-  height: 55vh;
+  height:50vh;
   width: 45vh;
   font-size: 14px;
   background-color: #353535;
@@ -844,11 +844,10 @@ gap: 2vw;
     gap: 2vh;
   }
   .services {
-    height:55vh;
+    height:50vh;
     width: 85vw;
     margin-left:2vw;
     font-size: 14px;
-    line-height: 1.2;
   }
 
   .services > i {
