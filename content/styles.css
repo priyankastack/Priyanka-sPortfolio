@@ -782,14 +782,25 @@ gap: 2vw;
 
   /*-- About section starts --*/
   #about-section {
-    background-image: url("images/Picture1.png");
+    background-image:none;
     display:flex;
     flex-direction:column;
+    gap:2vh;
   }
-
-  #aboutsection-rightdiv {
-    width: 43vw;
-    font-size: 12px;
+   #firstsection-leftdiv {
+    width:85vw;
+    height:70vh;
+    font-size:16px;
+    display: flex;
+    flex-direction: column;
+    margin-left:4vw;
+    margin-top: 12vh;
+  }
+  
+   #aboutsection-rightdiv{
+    display:block;
+    height:70vh;
+    width:80vw;
   }
   /*-- About section ends --*/
 
