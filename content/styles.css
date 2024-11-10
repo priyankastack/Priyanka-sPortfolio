@@ -981,6 +981,10 @@ gap: 2vw;
 /*--footer section css start--*/
 footer {
   font-size: 12px;
+  height:8vh;
+}
+  footer i {
+  font-size:10vh;
 }
 
 /*--footer section css ends--*/
