@@ -830,17 +830,17 @@ gap: 2vw;
 
   /*-- Services section starts --*/
   #service-section {
-  height:200vh;
+  height:210vh;
 }
   #service-container {
     width:85vw;
-    height:190vh;
+    height:200vh;
     margin-top:8vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    gap:3.5vh;
+    gap:5vh;
   }
   .services {
     height:50vh;
