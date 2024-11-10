@@ -704,15 +704,17 @@ gap: 2vw;
 
   /*-- First section starts --*/
   #firstsection {
-    background-image: url("images/copy.png");
+    background-image: url("images/30.png");
     background-position:center;
-    height: 80vh;
+    height:160vh;
+    display: flex;
+    flex-direction: column;
   }
   
   #firstsection-leftdiv {
     width:45vw;
     height: 55vh;
-    font-size: 12px;
+    font-size: 14px;
     display: flex;
     flex-direction: column;
     margin-left: 3vw;
@@ -732,16 +734,16 @@ gap: 2vw;
 
   #firstsection-icons-container {
     height: 6vh;
-    width: 18vw;
+    width: 20vw;
     margin-top: 2vh;
   }
 
   .social-iconlink > i {
-    font-size: 3.5vh;
+    font-size: 4.5vh;
   }
 
   #cv-button {
-    width: 25vw;
+    width: 45vw;
   }
   /*-- First section ends --*/
 
