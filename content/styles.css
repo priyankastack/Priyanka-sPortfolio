@@ -851,7 +851,7 @@ gap: 2vw;
   }
 
   .services > i {
-    font-size:6vh;
+    font-size:5vh;
   }
 
   .services > h2 {
@@ -893,7 +893,6 @@ gap: 2vw;
 
   /*-- Contact section starts --*/
   #contact-section {
- 
   height:85vh;
   display: flex;
   flex-direction:column;
