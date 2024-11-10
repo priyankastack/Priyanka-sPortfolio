@@ -827,7 +827,7 @@ gap: 2vw;
     width:80vw;
      display:flex;
      flex-direction:column;
-     margin-left:3vw;
+     margin-left:6vw;
     
     
   }
@@ -968,8 +968,8 @@ gap: 2vw;
   font-size: 14px;
 }
 #form textarea {
-  margin-top: 4vh;
-  padding:3vh;
+  margin-top: 4vh
+  width:85vw;
 }
 #submit-btn {
   width:50vw;
