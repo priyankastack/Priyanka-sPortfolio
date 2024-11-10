@@ -738,7 +738,7 @@ gap: 2vw;
     display: flex;
     flex-direction: column;
     gap:5vh;
-    height:155vh;
+    height:160vh;
   }
   
   #firstsection-leftdiv {
@@ -780,7 +780,7 @@ gap: 2vw;
     display:block;
     height:70vh;
     width:80vw;
-    margin-top:10vh;
+    margin-top:12vh;
   }
   /*-- First section ends --*/
 
