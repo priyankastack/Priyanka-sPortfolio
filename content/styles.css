@@ -832,7 +832,7 @@ gap: 2vw;
   #service-container {
     width:85vw;
     height:90vh;
-    margin:0;
+    margin-top:8vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -841,8 +841,9 @@ gap: 2vw;
   }
 
   .services {
-    height:75vh;
+    height:85vh;
     width: 85vw;
+    margin-left:2vw;
     font-size: 14px;
     line-height: 1.2;
   }
