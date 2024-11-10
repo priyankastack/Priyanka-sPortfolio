@@ -183,7 +183,7 @@ body {
   margin-top: 2vh;
 }
  
-#aboutsection-rightdiv {
+#aboutsection-lefttdiv {
   color:white;
   display: flex;
   flex-direction: column;
@@ -194,7 +194,7 @@ body {
  right: 60vw;
  margin-right: 7vw;
 }
-#aboutsection-rightdiv>p {
+#aboutsection-leftdiv>p {
   margin-top: 7vh;
 }
 #tab-container {
@@ -242,6 +242,14 @@ ul li span {
   font-size: 14px;
   font-weight: bold;
   margin-left: 0;
+}
+#aboutsection-rightdiv{
+  display:none;
+  width:45vw;
+  height:65vh;
+  margin-left:1vw;
+  margin-right:1vw;
+  margin-top: 13vh;
 }
 /*--about section css ends--*/
 
