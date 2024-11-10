@@ -699,7 +699,6 @@ gap: 2vw;
   /*-- Navbar section starts --*/
   #namelogo {
   margin-left:1.5vw;
-  font-size:2vh;
 }
   .nav-links {
     display: none;
@@ -781,7 +780,7 @@ gap: 2vw;
     display:block;
     height:70vh;
     width:80vw;
-    margin-top:3vh;
+    margin-top:6vh;
   }
   /*-- First section ends --*/
 
