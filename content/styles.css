@@ -449,7 +449,7 @@ ul li span {
   height: 85vh;
   width: 45vw;
   margin-right: 7vw;
-  margin-top: 10vh;
+  margin-top:8vh;
 }
 #contact-section-leftdiv {
   /*background-color:aqua;*/
@@ -821,7 +821,6 @@ gap: 2vw;
   padding-left:5vw;
 }
    #aboutsection-rightdiv{
-     background-color:red;
     display:block;
     height:65vh;
     width:80vw;
@@ -959,7 +958,7 @@ gap: 2vw;
   flex-direction: column;
   justify-content:center;
   align-items:center
-  margin-top:1vh;
+  margin-top:0vh;
   margin-left:3vw;
 }
 #form>input {
@@ -969,7 +968,7 @@ gap: 2vw;
 }
 #form textarea {
   margin-top: 4vh
-  width:90vw;
+  width:95vw;
   padding-top:5vh;
   padding-bottom:5vh;
 }
