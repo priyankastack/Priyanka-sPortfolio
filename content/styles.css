@@ -826,17 +826,21 @@ gap: 2vw;
   /*-- About section ends --*/
 
   /*-- Services section starts --*/
+  #service-section {
+  height:140vh;
+}
   #service-container {
+    width:85vw;
+    height:90vh;
     display:flex;
     flex-direction:column;
-    gap: 2vw;
-    
+    gap: 2vh;
   }
 
   .services {
-    height: 45vh;
-    width: 50vw;
-    font-size: 12px;
+    height:55vh;
+    width: 55vw;
+    font-size: 14px;
     line-height: 1.2;
   }
 
