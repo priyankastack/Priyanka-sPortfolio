@@ -23,7 +23,7 @@ body {
   z-index: 1000;
 }
 #namelogo {
-  margin-left:2vw;
+  margin-left:2vh;
 }
 .nav-links {
   margin-right: 7vw;
@@ -63,7 +63,7 @@ body {
 #menu-icon {
   display: none;
   color: white;
-  font-size:8vh;
+  font-size:6vh;
   cursor: pointer;
 }
 #cross-icon {
