@@ -738,7 +738,7 @@ gap: 2vw;
     background-image:none;
     display: flex;
     flex-direction: column;
-    gap:5vh'
+    gap:5vh;
     height:135vh;
   }
   
@@ -825,6 +825,7 @@ gap: 2vw;
     display:block;
     height:65vh;
     width:65vw;
+     margin-left:2vw;
      display:flex;
      flex-direction:column;
      justify-content:center;
@@ -962,7 +963,7 @@ gap: 2vw;
   margin-left:2vw;
 }
 #form>input {
-  padding:2.5vh 5vw 2.5vh 5vw;
+  padding:2.5vh 6vw 2.5vh 6vw;
   margin-top: 4vh;
   font-size: 14px;
 }
