@@ -156,9 +156,9 @@ body {
   display:none;
   width:45vw;
   height:65vh;
-  margin-right: 7vw;
+  margin-left:1vw;
+  margin-right:1vw;
   margin-top: 13vh;
- 
 }
 /*--first section css ends--*/
 
@@ -589,7 +589,7 @@ footer i {
   
     width:50vw;
     height:55vh;
-    font-size:14px;
+    font-size:16px;
     display: flex;
     flex-direction: column;
     margin-left:3vw;
@@ -724,12 +724,12 @@ gap: 2vw;
     background-image:none;
     display: flex;
     flex-direction: column;
-    height:170vh;
+    height:190vh;
   }
   
   #firstsection-leftdiv {
-    width:45vw;
-    height: 55vh;
+    width:80vw;
+    height:70vh;
     font-size: 14px;
     display: flex;
     flex-direction: column;
@@ -761,6 +761,8 @@ gap: 2vw;
   }
   #firstsection-rightdiv{
     display:block;
+    height:70vh;
+    width:80vw;
   }
   /*-- First section ends --*/
 
