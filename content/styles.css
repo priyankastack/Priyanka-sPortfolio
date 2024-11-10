@@ -941,13 +941,12 @@ gap: 2vw;
   font-size: 14px;
 }
 #contact-icons-container {
-  width: 20vw;
+  width:20vw;
 }
 #contact-icons-container > i {
   font-size: 3vh;
 }
 #form {
-  color: #6c757d;
   display: flex;
   flex-direction: column;
   justify-content:center;
@@ -955,7 +954,7 @@ gap: 2vw;
   margin-top: 6vh;
 }
 #form input {
-  padding: 2.5vh 0 2.5vh 1vh;
+  padding:2.5vh 5vw 2.5vh 5vw;
   margin-top: 4vh;
   font-size: 14px;
 }
@@ -964,7 +963,7 @@ gap: 2vw;
 }
 #submit-btn {
   width:50vw;
-  height: 8vh;
+  margin-left:22vw;
 }
 /*--Contact section css ends--*/
 /*--footer section css start--*/
