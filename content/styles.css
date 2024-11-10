@@ -705,14 +705,14 @@ gap: 2vw;
   /*-- First section starts --*/
   #firstsection {
     background-image: url("images/copy.png");
-    background-position: right;
+    background-position:center;
     height: 80vh;
   }
   
   #firstsection-leftdiv {
-    width: 50vw;
+    width:45vw;
     height: 55vh;
-    font-size: 14px;
+    font-size: 12px;
     display: flex;
     flex-direction: column;
     margin-left: 3vw;
@@ -727,12 +727,12 @@ gap: 2vw;
   }
   
   .profession {
-    font-size: 4.5vh;
+    font-size: 3.5vh;
   }
 
   #firstsection-icons-container {
     height: 6vh;
-    width: 16vw;
+    width: 18vw;
     margin-top: 2vh;
   }
 
@@ -741,13 +741,15 @@ gap: 2vw;
   }
 
   #cv-button {
-    width: 20vw;
+    width: 25vw;
   }
   /*-- First section ends --*/
 
   /*-- About section starts --*/
   #about-section {
     background-image: url("images/Picture1.png");
+    display:flex;
+    flex-direction:column;
   }
 
   #aboutsection-rightdiv {
@@ -758,7 +760,10 @@ gap: 2vw;
 
   /*-- Services section starts --*/
   #service-container {
+    display:flex;
+    flex-direction:column;
     gap: 2vw;
+    
   }
 
   .services {
@@ -780,6 +785,15 @@ gap: 2vw;
   /*-- Projects section starts --*/
   #project-container {
     gap: 2vw;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+  }
+   #project-container2 {
+    gap: 2vw;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-evenly;
   }
 
   .project {
@@ -788,22 +802,33 @@ gap: 2vw;
   }
 
   #see-more-btn {
-    width: 20vw;
+    width: 30vw;
   }
 
   #project-container2.showmore {
     height: 72vh;
     gap: 2vw;
+     display:flex;
+  flex-direction:column;
+  justify-content: space-evenly;
   }
   /*-- Projects section ends --*/
 
   /*-- Contact section starts --*/
+  #contact-section {
+ 
+  height:85vh;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  margin-top: 2vh;
+}
   #contact-para {
     font-size: 12px;
   }
 
   #contact-icons-container {
-    width: 20vw;
+    width: 25vw;
   }
 
   .email {
@@ -811,7 +836,7 @@ gap: 2vw;
   }
 
   #submit-btn {
-    width: 20vw;
+    width: 30vw;
   }
   /*-- Contact section ends --*/
 }
