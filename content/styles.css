@@ -827,8 +827,8 @@ gap: 2vw;
     width:80vw;
      display:flex;
      flex-direction:column;
-     justify-content:center;
-     align-items:center;
+    
+    
   }
   /*-- About section ends --*/
 
@@ -962,7 +962,7 @@ gap: 2vw;
   margin-left:3vw;
 }
 #form>input {
-  width:20vw;
+  width:80vw;
   margin-top: 4vh;
   font-size: 14px;
 }
