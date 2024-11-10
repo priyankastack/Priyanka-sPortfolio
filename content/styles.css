@@ -724,40 +724,42 @@ gap: 2vw;
     background-image:none;
     display: flex;
     flex-direction: column;
-    height:190vh;
+    height:140vh;
   }
   
   #firstsection-leftdiv {
-    width:80vw;
+    width:85vw;
     height:70vh;
-    font-size: 14px;
+    font-size:16px;
     display: flex;
     flex-direction: column;
-    margin-left: 3vw;
+    margin-left:4vw;
     margin-top: 12vh;
   }
   
   #firstsection-leftdiv > h1 {
-    font-size: 3.5vh;
+    font-size: 4.5vh;
     font-weight: 400;
+    
   }
   
   .profession {
-    font-size: 4.5vh;
+    font-size: 5.5vh;
   }
 
   #firstsection-icons-container {
     height: 6vh;
-    width: 20vw;
-    margin-top: 2vh;
+    width:40vw;
+    margin-top:4vh;
   }
 
   .social-iconlink > i {
-    font-size: 4.5vh;
+    font-size:5vh;
   }
 
   #cv-button {
-    width: 45vw;
+    width:45vw;
+    border-radius:50%;
   }
   #firstsection-rightdiv{
     display:block;
