@@ -900,8 +900,9 @@ gap: 2vw;
 }
 #see-more-btn {
   width:50vw;
-  height: 8vh;
-  margin-top: 2vh;
+  margin-top:1vh;
+   position: relative;
+  left: 44vw;
 }
 /*--THE FOLLOWING CSS OF PROJECT SECTION WILL APPLIED ON PROJECT-SECTION WHEN  CLICKED SEEMORE BUTTON---*/
 
@@ -918,18 +919,18 @@ gap: 2vw;
   
   /*-- Contact section starts --*/
   #contact-section {
-  height:85vh;
+  height:130vh;
   display: flex;
   flex-direction:column;
   justify-content: space-between;
   margin-top: 2vh;
 }
   #contact-para {
-    font-size: 12px;
+    font-size:16px;
   }
 
   #contact-icons-container {
-    width: 25vw;
+    width: 20vw;
   }
 
   .email {
