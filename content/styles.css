@@ -715,7 +715,7 @@ gap: 2vw;
   .nav-links a {
   padding: 1vw;
   position: relative;
-  margin-top:5vh;
+  margin-top:10vh;
 }
   
   .nav-links.show {
@@ -737,8 +737,10 @@ gap: 2vw;
     margin-right: 5vw;  
   }
   #cross-icon {
- margin-top:10vh
+  position:relative;
+    top:10vh;
     font-size:10px
+    
 }
   /*-- Navbar section ends --*/
 
@@ -837,8 +839,8 @@ gap: 2vw;
     width:80vw;
      display:flex;
      flex-direction:column;
-     margin-left:7vw;
-     margin-top:12vh;
+     margin-left:12vw;
+     margin-top:15vh;
      background-color:red;
     
     
