@@ -5,12 +5,12 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color:antiquewhite:rgba(0, 0, 0, 0.986);
+  background-color:rgba(0, 0, 0, 0.959);;
   font-family: Poppins;
 }
 /*--Navbar css starts--*/
 #navbar {
-  background-color:;
+  background-color:antiquewhite;;
   height: 12vh;
   display: flex;
   flex-direction: row;
