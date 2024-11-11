@@ -5,12 +5,12 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color:rgba(0, 0, 0, 0.959);
+  background-color:black;
   font-family: Poppins;
 }
 /*--Navbar css starts--*/
 #navbar {
-  background-color:rgba(0, 0, 0, 0.959);
+  background-color:black;
   height: 12vh;
   display: flex;
   flex-direction: row;
@@ -29,7 +29,7 @@ body {
   margin-right: 7vw;
 }
 .nav-links a {
-  color:antiquewhite;
+  color:white;
   text-decoration: none;
   padding: 1vw;
   position: relative;
@@ -87,7 +87,7 @@ body {
 
 }
 #firstsection-leftdiv {
-  color:antiquewhite;
+  color:white;
   width:45vw;
   height:65vh;
   display: flex;
@@ -126,7 +126,7 @@ body {
 .social-iconlink > i {
   font-size: 5vh;
   margin: 0.6vw;
-  color:antiquewhite;
+  color:white;
   border-radius: 50%;
   transition: transform 0.5s;
 }
@@ -145,7 +145,7 @@ body {
 }
 #cv-button:hover {
   background-color: #d62828;
-  color:antiquewhite;
+  color:white;
   transition: 1s;
 }
 #cv-btn-link {
@@ -166,7 +166,7 @@ body {
 #about-me {
   text-align: center;
   margin-top: 5vh;
-  color:antiquewhite;
+  color:white;
   font-weight: 400;
 }
 #about-me::first-letter {
@@ -184,7 +184,7 @@ body {
 }
  
 #aboutsection-leftdiv {
-  color:antiquewhite;
+  color:white;
   display: flex;
   flex-direction: column;
   justify-content: right;
@@ -258,7 +258,7 @@ ul li span {
 #my-service {
   text-align: center;
   margin-top: 5vh;
-  color:antiquewhite;
+  color:white;
   font-weight: 400;
 }
 #service-section {
@@ -282,7 +282,7 @@ ul li span {
   width: 45vh;
   font-size: 14px;
   background-color: #353535;
-  color:antiquewhite;
+  color:white;
   border-radius: 10px;
   transition: transform 0.5s;
   display: flex;
@@ -305,7 +305,7 @@ ul li span {
 #my-project {
   text-align: center;
   margin-top: 5vh;
-  color:antiquewhite;
+  color:white;
   font-weight: 400;
 }
 #my-project::first-letter {
@@ -313,7 +313,7 @@ ul li span {
 }
 #project-section {
   height:87vh;
-  color:antiquewhite;
+  color:white;
   border-bottom: 1px solid grey;
 }
 #project-outer-container{
@@ -381,7 +381,7 @@ ul li span {
 .project-link {
   text-decoration: none;
   color: #d62828;
-  background-color:antiquewhite;
+  background-color:white;
   height: 5vh;
   width: 5vh;
   margin-top:2vh;
@@ -397,7 +397,7 @@ ul li span {
   border-style: none;
   border: 1px solid #d62828;
   background-color: black;
-  color:antiquewhite;
+  color:white;
   border-radius: 25px;
   cursor: pointer;
   font-size: 16px;
@@ -429,7 +429,7 @@ ul li span {
 #contact-me {
   text-align: center;
   margin-top: 5vh;
-  color:antiquewhite;
+  color:white;
   font-weight: 400;
 }
 #contact-me::first-letter {
@@ -453,7 +453,7 @@ ul li span {
 }
 #contact-section-leftdiv {
   /*background-color:aqua;*/
-  color:antiquewhite;
+  color:white;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -505,14 +505,14 @@ ul li span {
   margin-top: 4vh;
   border-radius: 3px;
   background-color: #353535;
-  color:antiquewhite;
+  color:white;
   font-size: 14px;
   border: none;
   outline: none;
 }
 #form textarea {
   background-color: #353535;
-  color:antiquewhite;
+  color:white;
   border-radius: 3px;
   margin-top: 4vh;
   padding-left: 1vh;
@@ -527,7 +527,7 @@ ul li span {
   border-style: none;
   border: 1px solid #d62828;
   background-color: black;
-  color:antiquewhite;
+  color:white;
   border-radius: 25px;
   cursor: pointer;
   font-size: 16px;
@@ -805,7 +805,7 @@ gap: 2vw;
     height:170vh;
   }
    #aboutsection-leftdiv {
-    color:antiquewhite;
+    color:white;
     width:85vw;
     height:80vh;
     font-size:16px;
