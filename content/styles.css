@@ -944,7 +944,7 @@ gap: 2vw;
 #contact-section-form {
   height: 85vh;
   width:95vw;
-  margin-top:6vh;
+  margin-top:3vh;
   margin-left:3vw;
 }
 #contact-section-leftdiv {
@@ -981,7 +981,7 @@ gap: 2vw;
 }
 #form textarea {
   margin-top: 4vh
-  width:100vw;
+  width:120vw;
   padding-top:5vh;
   padding-bottom:5vh;
   padding-right:4vw;
