@@ -942,7 +942,7 @@ gap: 2vw;
   margin-top: 2vh;
 }
 #contact-section-form {
-  height: 85vh;
+  height:85vh;
   width:90vw;
   margin-top:3vh;
   margin-left:3vw;
@@ -966,7 +966,7 @@ gap: 2vw;
 }
 #form {
   height:70vh;
-  width:90vw;
+  width:85vw;
   display: flex;
   flex-direction: column;
   justify-content:center;
