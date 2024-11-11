@@ -966,7 +966,7 @@ gap: 2vw;
 }
 #form {
   height:70vh;
-  width:85vw;
+  width:88vw;
   display: flex;
   flex-direction: column;
   justify-content:center;
@@ -975,13 +975,13 @@ gap: 2vw;
   margin-left:2vw;
 }
 #form>input {
-  width:85vw;
+  width:88vw;
   margin-top: 4vh;
   font-size: 14px;
 }
 #form textarea {
   margin-top: 4vh
-  width:85vw;
+  width:88vw;
   padding-top:5vh;
   padding-bottom:5vh;
   
