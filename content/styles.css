@@ -966,7 +966,7 @@ gap: 2vw;
 }
 #form {
   height:70vh;
-  width:80vw;
+  width:95vw;
   display: flex;
   flex-direction: column;
   justify-content:center;
@@ -981,7 +981,7 @@ gap: 2vw;
 }
 #form textarea {
   margin-top: 4vh
-  width:100vw;
+  width:95vw;
   padding-top:5vh;
   padding-bottom:5vh;
   padding-right:8vw;
