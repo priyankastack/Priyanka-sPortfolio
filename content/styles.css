@@ -840,10 +840,7 @@ gap: 2vw;
      display:flex;
      flex-direction:column;
      margin-left:12vw;
-     margin-top:15vh;
-     background-color:red;
-    
-    
+     margin-top:15vh; 
   }
   /*-- About section ends --*/
 
