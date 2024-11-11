@@ -828,7 +828,7 @@ gap: 2vw;
 }
    #aboutsection-rightdiv{
     display:block;
-    height:65vh;
+    height:50vh;
     width:80vw;
      display:flex;
      flex-direction:column;
