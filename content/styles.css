@@ -996,10 +996,11 @@ footer {
   font-size: 12px;
   height:8vh;
 }
-  
-
 /*--footer section css ends--*/
- 
+  #cv-button {
+    margin-top:5vh;
+    width:50vw;
+  }
 }
 
 
