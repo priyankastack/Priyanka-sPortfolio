@@ -12,7 +12,7 @@ navLinks.forEach(link => {
 /*---active-link js end---*/
 
 /*--Proffession js of first section start--*/
-const professions = ["Web Developer", "WordPress Developer", "UI/UX Designer"];
+const professions = ["Frontend Developer", "WordPress Developer"];
 let currentProfessionIndex = 0;
 let charIndex = 0;
 const professionElement = document.getElementById("profession");
